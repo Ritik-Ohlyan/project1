@@ -25,9 +25,13 @@ body{
 
 
 .container img{
-    /* position: relative;
-    left: 43.45em; */
-    float: right;
+    position:absolute;
+    left: 43.45em;
+    /* float: right; */
+    margin: 0;
+    margin-left: 12em;
+    border-radius: 10px;
+    width: 36em;
 }
 
 .hero{
@@ -62,4 +66,17 @@ span{
     width: 29em;
     color: hsla(0, 0%, 100%, 0.6);
     font-family: 'Lexend Deca', sans-serif;
+}
+
+.blend{
+    background-color: hsl(277, 94%, 21%);
+    opacity: 60%;
+    position:absolute;
+    left: 43.45em;
+    /* float: right; */
+    margin: 0;
+    margin-left: 12em;
+    border-radius: 10px;
+    width: 36em;
+    height: 30em;
 }
